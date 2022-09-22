@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/js/script.js" defer></script>
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <header>
+      <div class="balance">
+        <span class="balance-text">My balance</span>
+        <h1 class="balance-heading">$921.48</h1>
+      </div>
+
+      <img src="/images/logo.svg" alt="logo" class="logo" />
+    </header>
+
+    <main>
+      <h2>Spending - Last 7 days</h2>
+
+      <div class="graph">
+        <div class="monday">
+          <span class="hover-info"></span>
+          <div class="mon-column column" name="mon"></div>
+          <p>mon</p>
+        </div>
+
+        <div class="tuesday">
+          <span class="hover-info"></span>
+          <div class="tue-column column" name="tue"></div>
+          <p>tue</p>
+        </div>
+
+        <div class="wednesday">
+          <span class="hover-info"></span>
+          <div class="wed-column column" name="wed"></div>
+          <p>wed</p>
+        </div>
+
+        <div class="thursday">
+          <span class="hover-info"></span>
+          <div class="thu-column column" name="thu"></div>
+          <p>thu</p>
+        </div>
+
+        <div class="friday">
+          <span class="hover-info"></span>
+          <div class="fri-column column" name="fri"></div>
+          <p>fri</p>
+        </div>
+
+        <div class="saturday">
+          <span class="hover-info"></span>
+          <div class="sat-column column" name="sat"></div>
+          <p>sat</p>
+        </div>
+
+        <div class="sunday">
+          <span class="hover-info"></span>
+          <div class="sun-column column" name="week"></div>
+          <p>sun</p>
+        </div>
+      </div>
+      <hr />
+
+      <footer>
+        <div class="total-section">
+          <p class="total">Total this month</p>
+
+          <h1 class="footer-heading">$478.33</h1>
+        </div>
+
+        <div class="month-section">
+          <h4 class="month-heading">+2.4%</h4>
+          <p class="month-p">from last month</p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
